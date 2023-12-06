@@ -86,6 +86,16 @@ return {
     config = function()
       require("ibl").setup()
     end
-  }
+  },
+  {
+    "echasnovski/mini.surround",
+    config = function()
+      require("mini.surround").setup()
+    end
+  },
+
+  {
+    "github/copilot.vim",
+  },
 
 }

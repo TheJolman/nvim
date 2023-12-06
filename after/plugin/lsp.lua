@@ -62,9 +62,15 @@ require("mason-lspconfig").setup_handlers({
             capabilities = capabilities,
             settings = {
                 Lua = {
-                    workspace = { checkThirdParty = false },
+                    workspace = {
+                      checkThirdParty = false,
+			                telemetry = { enable = false},
+			                library = {
+				                "${3rd}/love2d/library" 
+                      },
                     telemetry = { enable = false },
-                },
+                    },
+                }
             }
         }
     end

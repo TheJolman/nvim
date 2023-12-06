@@ -5,6 +5,7 @@ local o = vim.o
 global.mapleader = " "
 global.maplocalleader = " "
 
+-- use system clipboard
 o.clipboard = 'unnamedplus'
 
 o.termguicolors = true
@@ -14,7 +15,7 @@ o.relativenumber = true
 o.pumheight = 10
 o.pumwidth = 10
 o.cursorline = false
--- vim.cmd [[highlight CursorLine cterm=NONE ctermbg=darkgray gui=NONE guibg=darkgray]]
+o.cursorline = true
 o.syntax = "on"
 o.expandtab = true
 o.autoindent = true
