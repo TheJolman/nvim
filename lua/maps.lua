@@ -17,6 +17,7 @@ map('n', '<leader>b', '<CMD>Neotree buffers toggle<CR>', {silent = true})
 map('n', '<leader>l', '<CMD>ls<CR>', {silent = true})
 map('n', '<S-TAB>', '<CMD>bp<CR>', {silent = true})
 map('n', '<TAB>', '<CMD>bn<CR>', {silent = true})
+map('n', '<leader>d', '<CMD>bd', {silent = true})
 
 -- Telescope
 map('n', '<leader>ff', '<CMD>Telescope find_files<CR>', {silent = true})
